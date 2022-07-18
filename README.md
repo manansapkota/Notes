@@ -14,6 +14,10 @@
     composer install
     ```
     This will installed all the necessary dependencies to run this project
+- Run this command
+    ```
+    php artisan key:generate
+    ```
 - Create Database named "notes" in MySQL
 - Run this command to migrate all tables in database
     ```
