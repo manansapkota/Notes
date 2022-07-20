@@ -4,11 +4,16 @@
 
 ## 2. Required Dependencies
 - [Composer](https://getcomposer.org/download/)
-- [PHP,Apache,MySQL](https://www.apachefriends.org/download.html)
+- [PHP(>8.0.2),Apache,MySQL](https://www.apachefriends.org/download.html)
 
 
 ## 3. After installing all the required dependencies
 - Change directory to cloned project
+- Create ".env" file in root project folder or rename .env.example file to .env
+- In .env file keep
+    ```
+    DB_DATABASE = notes
+    ```
 - Run this command in terminal
     ```
     composer install
